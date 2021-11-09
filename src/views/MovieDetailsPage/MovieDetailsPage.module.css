@@ -8,6 +8,12 @@
   margin-right: 10px;
 }
 
+.castImg {
+  display: block;
+  width: 100px;
+  margin-right: 10px;
+}
+
 .link {
   display: inline-block;
   text-decoration: none;

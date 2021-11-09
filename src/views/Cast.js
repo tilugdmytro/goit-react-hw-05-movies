@@ -25,12 +25,12 @@ export default function Cast() {
               <li key={id}>
                 {profile_path ? (
                   <img
-                    className={s.posterImg}
+                    className={s.castImg}
                     src={`${imgurl}${profile_path}`}
                     alt={name}
                   />
                 ) : (
-                  <img className={s.posterImg} src={defaultImg} alt={name} />
+                  <img className={s.castImg} src={defaultImg} alt={name} />
                 )}
                 <p>Actor: {name}</p>
                 <p>Character: {character}</p>
